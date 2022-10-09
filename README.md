@@ -11,7 +11,7 @@ On first request it takes time in normal manner but after using redis response t
 #### Get all weather information
 
 ```http
-  GET /data
+  [GET /data](https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key})
 ```
 
 
