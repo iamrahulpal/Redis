@@ -3,8 +3,8 @@
 
 Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability.
 
-I have used redis in this project to test the time reduction.
-On first request it takes time in normal manner but after using redis response time increases significantly.
+In this repo redis is used to test the response time reduction of request.
+On first request it takes time in normal manner but after using redis response time decreases significantly.
 
 ## API Reference
 
