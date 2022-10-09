@@ -17,7 +17,7 @@ app.get("/data", async (req, res) => {
       return res.json(JSON.parse(data));
     } else {
       const { data } = await axios.get(
-        `https://api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=7d3d32073267dc163cff9edc6ce52300`
+        `https://api.openweathermap.org/data/2.5/weather?zip=94040,us&appid={SECRET KEY}`
       );
 
       redisClient.setex("data", DEFAULT_EXPIRATION, JSON.stringify(data));
